@@ -11,7 +11,13 @@ friend_favorites = [
 ]
 '''
 def get_friends_favorite_candy_count(favorites):
-    pass
+    candy_freq_map = {}
+
+    for friend in favorites:
+        for candy in friend[-1]:
+            candy_freq_map[candy] = candy_freq_map.get(candy, 0) + 1
+    
+    return candy_freq_map
 
 '''
 2. 
