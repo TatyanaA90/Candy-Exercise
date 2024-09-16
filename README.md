@@ -12,6 +12,8 @@ a tuple of friends who like the candy specified in the `candy_name` parameter. T
 4. In `create_candy_set()`, return a set of all the candies from
 the data structure made in `create_new_candy_data_structure()`.
 
+5. After implementing your functions, familiarize yourself with the first test. Then write some assert statements for the second test. Finally, starting with nominal cases, write tests for each of the functions in the file tests/test_candy_data_structure.py then write tests to handle edge cases.
+
 ## `friend_favorite` Data Structure
 
 ```python
@@ -22,8 +24,3 @@ friend_favorites = [
     ["Carlie", ["nerds", "sour patch kids", "laffy taffy" ]]
 ]
 ```
-
-## Tests
-Starting with nominal cases, write tests for each of the functions 
-in the file tests/test_candy_data_structure.py then write tests to 
-handle edge cases.
